@@ -1,0 +1,3324 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-01T08:52:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 227348373,
+  "bounds": {
+    "minlat": -25.2326009,
+    "minlon": 130.9905002,
+    "maxlat": -25.2318700,
+    "maxlon": 130.9924613
+  },
+  "geometry": [
+    { "lat": -25.2319455, "lon": 130.9924613 },
+    { "lat": -25.2326009, "lon": 130.9924461 },
+    { "lat": -25.2326009, "lon": 130.9905002 },
+    { "lat": -25.2318700, "lon": 130.9905116 },
+    { "lat": -25.2318753, "lon": 130.9913682 },
+    { "lat": -25.2319032, "lon": 130.9913682 },
+    { "lat": -25.2319008, "lon": 130.9915278 },
+    { "lat": -25.2319456, "lon": 130.9915291 },
+    { "lat": -25.2319455, "lon": 130.9924613 }
+  ],
+  "tags": {
+    "landuse": "industrial",
+    "name": "Yulara Power Station",
+    "operator": "Territory Generation",
+    "plant:method": "combustion",
+    "plant:output:electricity": "11 MW",
+    "plant:source": "gas",
+    "power": "plant",
+    "source": "Bing",
+    "source:name": "voice"
+  }
+},
+{
+  "type": "way",
+  "id": 681718763,
+  "bounds": {
+    "minlat": -25.2405420,
+    "minlon": 130.9895282,
+    "maxlat": -25.2405033,
+    "maxlon": 130.9899287
+  },
+  "geometry": [
+    { "lat": -25.2405084, "lon": 130.9895282 },
+    { "lat": -25.2405420, "lon": 130.9895288 },
+    { "lat": -25.2405369, "lon": 130.9899287 },
+    { "lat": -25.2405033, "lon": 130.9899281 },
+    { "lat": -25.2405084, "lon": 130.9895282 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 681718766,
+  "bounds": {
+    "minlat": -25.2406092,
+    "minlon": 130.9895278,
+    "maxlat": -25.2405705,
+    "maxlon": 130.9899282
+  },
+  "geometry": [
+    { "lat": -25.2405756, "lon": 130.9895278 },
+    { "lat": -25.2406092, "lon": 130.9895283 },
+    { "lat": -25.2406041, "lon": 130.9899282 },
+    { "lat": -25.2405705, "lon": 130.9899277 },
+    { "lat": -25.2405756, "lon": 130.9895278 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 681718770,
+  "bounds": {
+    "minlat": -25.2406805,
+    "minlon": 130.9895295,
+    "maxlat": -25.2406417,
+    "maxlon": 130.9899300
+  },
+  "geometry": [
+    { "lat": -25.2406468, "lon": 130.9895295 },
+    { "lat": -25.2406805, "lon": 130.9895301 },
+    { "lat": -25.2406753, "lon": 130.9899300 },
+    { "lat": -25.2406417, "lon": 130.9899295 },
+    { "lat": -25.2406468, "lon": 130.9895295 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 681718773,
+  "bounds": {
+    "minlat": -25.2407485,
+    "minlon": 130.9895278,
+    "maxlat": -25.2407097,
+    "maxlon": 130.9899282
+  },
+  "geometry": [
+    { "lat": -25.2407149, "lon": 130.9895278 },
+    { "lat": -25.2407485, "lon": 130.9895283 },
+    { "lat": -25.2407434, "lon": 130.9899282 },
+    { "lat": -25.2407097, "lon": 130.9899277 },
+    { "lat": -25.2407149, "lon": 130.9895278 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 681718776,
+  "bounds": {
+    "minlat": -25.2408157,
+    "minlon": 130.9895295,
+    "maxlat": -25.2407770,
+    "maxlon": 130.9899300
+  },
+  "geometry": [
+    { "lat": -25.2407821, "lon": 130.9895295 },
+    { "lat": -25.2408157, "lon": 130.9895301 },
+    { "lat": -25.2408106, "lon": 130.9899300 },
+    { "lat": -25.2407770, "lon": 130.9899295 },
+    { "lat": -25.2407821, "lon": 130.9895295 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 681718780,
+  "bounds": {
+    "minlat": -25.2405364,
+    "minlon": 130.9899551,
+    "maxlat": -25.2404977,
+    "maxlon": 130.9903556
+  },
+  "geometry": [
+    { "lat": -25.2405028, "lon": 130.9899551 },
+    { "lat": -25.2405364, "lon": 130.9899557 },
+    { "lat": -25.2405313, "lon": 130.9903556 },
+    { "lat": -25.2404977, "lon": 130.9903550 },
+    { "lat": -25.2405028, "lon": 130.9899551 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 681718785,
+  "bounds": {
+    "minlat": -25.2406044,
+    "minlon": 130.9899587,
+    "maxlat": -25.2405657,
+    "maxlon": 130.9903591
+  },
+  "geometry": [
+    { "lat": -25.2405708, "lon": 130.9899587 },
+    { "lat": -25.2406044, "lon": 130.9899592 },
+    { "lat": -25.2405993, "lon": 130.9903591 },
+    { "lat": -25.2405657, "lon": 130.9903586 },
+    { "lat": -25.2405708, "lon": 130.9899587 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 681718790,
+  "bounds": {
+    "minlat": -25.2406741,
+    "minlon": 130.9899569,
+    "maxlat": -25.2406353,
+    "maxlon": 130.9903573
+  },
+  "geometry": [
+    { "lat": -25.2406404, "lon": 130.9899569 },
+    { "lat": -25.2406741, "lon": 130.9899574 },
+    { "lat": -25.2406689, "lon": 130.9903573 },
+    { "lat": -25.2406353, "lon": 130.9903568 },
+    { "lat": -25.2406404, "lon": 130.9899569 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 681718796,
+  "bounds": {
+    "minlat": -25.2407437,
+    "minlon": 130.9899578,
+    "maxlat": -25.2407049,
+    "maxlon": 130.9903582
+  },
+  "geometry": [
+    { "lat": -25.2407101, "lon": 130.9899578 },
+    { "lat": -25.2407437, "lon": 130.9899583 },
+    { "lat": -25.2407386, "lon": 130.9903582 },
+    { "lat": -25.2407049, "lon": 130.9903577 },
+    { "lat": -25.2407101, "lon": 130.9899578 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 805402710,
+  "bounds": {
+    "minlat": -25.2222821,
+    "minlon": 130.9731325,
+    "maxlat": -25.2211164,
+    "maxlon": 130.9743288
+  },
+  "geometry": [
+    { "lat": -25.2216803, "lon": 130.9731325 },
+    { "lat": -25.2222748, "lon": 130.9735537 },
+    { "lat": -25.2222821, "lon": 130.9736556 },
+    { "lat": -25.2219036, "lon": 130.9743288 },
+    { "lat": -25.2213701, "lon": 130.9743096 },
+    { "lat": -25.2211164, "lon": 130.9741354 },
+    { "lat": -25.2216803, "lon": 130.9731325 }
+  ],
+  "tags": {
+    "barrier": "fence",
+    "plant:method": "photovoltaic",
+    "plant:output:electricity": "yes",
+    "plant:source": "solar",
+    "power": "plant"
+  }
+},
+{
+  "type": "way",
+  "id": 1305948318,
+  "bounds": {
+    "minlat": -25.1908890,
+    "minlon": 130.9767570,
+    "maxlat": -25.1905859,
+    "maxlon": 130.9771839
+  },
+  "geometry": [
+    { "lat": -25.1905859, "lon": 130.9768320 },
+    { "lat": -25.1908503, "lon": 130.9771839 },
+    { "lat": -25.1908890, "lon": 130.9771484 },
+    { "lat": -25.1908425, "lon": 130.9770864 },
+    { "lat": -25.1908634, "lon": 130.9770673 },
+    { "lat": -25.1908457, "lon": 130.9770437 },
+    { "lat": -25.1908678, "lon": 130.9770234 },
+    { "lat": -25.1908495, "lon": 130.9769991 },
+    { "lat": -25.1908624, "lon": 130.9769873 },
+    { "lat": -25.1907728, "lon": 130.9768681 },
+    { "lat": -25.1907600, "lon": 130.9768799 },
+    { "lat": -25.1906676, "lon": 130.9767570 },
+    { "lat": -25.1905859, "lon": 130.9768320 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "location": "roof",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595716,
+  "bounds": {
+    "minlat": -25.2430851,
+    "minlon": 130.9809884,
+    "maxlat": -25.2430509,
+    "maxlon": 130.9810732
+  },
+  "geometry": [
+    { "lat": -25.2430509, "lon": 130.9809884 },
+    { "lat": -25.2430845, "lon": 130.9809887 },
+    { "lat": -25.2430851, "lon": 130.9810732 },
+    { "lat": -25.2430515, "lon": 130.9810729 },
+    { "lat": -25.2430509, "lon": 130.9809884 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595717,
+  "bounds": {
+    "minlat": -25.2430831,
+    "minlon": 130.9814066,
+    "maxlat": -25.2430490,
+    "maxlon": 130.9814714
+  },
+  "geometry": [
+    { "lat": -25.2430495, "lon": 130.9814066 },
+    { "lat": -25.2430831, "lon": 130.9814069 },
+    { "lat": -25.2430826, "lon": 130.9814714 },
+    { "lat": -25.2430490, "lon": 130.9814710 },
+    { "lat": -25.2430495, "lon": 130.9814066 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595718,
+  "bounds": {
+    "minlat": -25.2430841,
+    "minlon": 130.9812435,
+    "maxlat": -25.2430495,
+    "maxlon": 130.9814021
+  },
+  "geometry": [
+    { "lat": -25.2430505, "lon": 130.9812435 },
+    { "lat": -25.2430841, "lon": 130.9812439 },
+    { "lat": -25.2430831, "lon": 130.9814021 },
+    { "lat": -25.2430495, "lon": 130.9814018 },
+    { "lat": -25.2430505, "lon": 130.9812435 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595719,
+  "bounds": {
+    "minlat": -25.2430850,
+    "minlon": 130.9810811,
+    "maxlat": -25.2430505,
+    "maxlon": 130.9812397
+  },
+  "geometry": [
+    { "lat": -25.2430514, "lon": 130.9810811 },
+    { "lat": -25.2430850, "lon": 130.9810814 },
+    { "lat": -25.2430841, "lon": 130.9812397 },
+    { "lat": -25.2430505, "lon": 130.9812393 },
+    { "lat": -25.2430514, "lon": 130.9810811 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595720,
+  "bounds": {
+    "minlat": -25.2431477,
+    "minlon": 130.9809152,
+    "maxlat": -25.2431131,
+    "maxlon": 130.9810738
+  },
+  "geometry": [
+    { "lat": -25.2431141, "lon": 130.9809152 },
+    { "lat": -25.2431477, "lon": 130.9809156 },
+    { "lat": -25.2431467, "lon": 130.9810738 },
+    { "lat": -25.2431131, "lon": 130.9810735 },
+    { "lat": -25.2431141, "lon": 130.9809152 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595721,
+  "bounds": {
+    "minlat": -25.2431457,
+    "minlon": 130.9812441,
+    "maxlat": -25.2431111,
+    "maxlon": 130.9814027
+  },
+  "geometry": [
+    { "lat": -25.2431121, "lon": 130.9812441 },
+    { "lat": -25.2431457, "lon": 130.9812445 },
+    { "lat": -25.2431447, "lon": 130.9814027 },
+    { "lat": -25.2431111, "lon": 130.9814023 },
+    { "lat": -25.2431121, "lon": 130.9812441 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595722,
+  "bounds": {
+    "minlat": -25.2431467,
+    "minlon": 130.9810816,
+    "maxlat": -25.2431121,
+    "maxlon": 130.9812402
+  },
+  "geometry": [
+    { "lat": -25.2431131, "lon": 130.9810816 },
+    { "lat": -25.2431467, "lon": 130.9810820 },
+    { "lat": -25.2431457, "lon": 130.9812402 },
+    { "lat": -25.2431121, "lon": 130.9812399 },
+    { "lat": -25.2431131, "lon": 130.9810816 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595723,
+  "bounds": {
+    "minlat": -25.2432108,
+    "minlon": 130.9810805,
+    "maxlat": -25.2431762,
+    "maxlon": 130.9812391
+  },
+  "geometry": [
+    { "lat": -25.2431772, "lon": 130.9810805 },
+    { "lat": -25.2432108, "lon": 130.9810809 },
+    { "lat": -25.2432098, "lon": 130.9812391 },
+    { "lat": -25.2431762, "lon": 130.9812387 },
+    { "lat": -25.2431772, "lon": 130.9810805 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595724,
+  "bounds": {
+    "minlat": -25.2432098,
+    "minlon": 130.9812469,
+    "maxlat": -25.2431757,
+    "maxlon": 130.9813117
+  },
+  "geometry": [
+    { "lat": -25.2431762, "lon": 130.9812469 },
+    { "lat": -25.2432098, "lon": 130.9812473 },
+    { "lat": -25.2432093, "lon": 130.9813117 },
+    { "lat": -25.2431757, "lon": 130.9813113 },
+    { "lat": -25.2431762, "lon": 130.9812469 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595725,
+  "bounds": {
+    "minlat": -25.2432118,
+    "minlon": 130.9809186,
+    "maxlat": -25.2431772,
+    "maxlon": 130.9810772
+  },
+  "geometry": [
+    { "lat": -25.2431782, "lon": 130.9809186 },
+    { "lat": -25.2432118, "lon": 130.9809189 },
+    { "lat": -25.2432108, "lon": 130.9810772 },
+    { "lat": -25.2431772, "lon": 130.9810768 },
+    { "lat": -25.2431782, "lon": 130.9809186 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595726,
+  "bounds": {
+    "minlat": -25.2432118,
+    "minlon": 130.9808304,
+    "maxlat": -25.2431777,
+    "maxlon": 130.9809152
+  },
+  "geometry": [
+    { "lat": -25.2431777, "lon": 130.9808304 },
+    { "lat": -25.2432113, "lon": 130.9808307 },
+    { "lat": -25.2432118, "lon": 130.9809152 },
+    { "lat": -25.2431782, "lon": 130.9809149 },
+    { "lat": -25.2431777, "lon": 130.9808304 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595727,
+  "bounds": {
+    "minlat": -25.2428304,
+    "minlon": 130.9825460,
+    "maxlat": -25.2427959,
+    "maxlon": 130.9827046
+  },
+  "geometry": [
+    { "lat": -25.2427968, "lon": 130.9825460 },
+    { "lat": -25.2428304, "lon": 130.9825463 },
+    { "lat": -25.2428295, "lon": 130.9827046 },
+    { "lat": -25.2427959, "lon": 130.9827042 },
+    { "lat": -25.2427968, "lon": 130.9825460 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595728,
+  "bounds": {
+    "minlat": -25.2428294,
+    "minlon": 130.9827124,
+    "maxlat": -25.2427949,
+    "maxlon": 130.9828710
+  },
+  "geometry": [
+    { "lat": -25.2427958, "lon": 130.9827124 },
+    { "lat": -25.2428294, "lon": 130.9827128 },
+    { "lat": -25.2428285, "lon": 130.9828710 },
+    { "lat": -25.2427949, "lon": 130.9828706 },
+    { "lat": -25.2427958, "lon": 130.9827124 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595729,
+  "bounds": {
+    "minlat": -25.2428284,
+    "minlon": 130.9828749,
+    "maxlat": -25.2427939,
+    "maxlon": 130.9830335
+  },
+  "geometry": [
+    { "lat": -25.2427948, "lon": 130.9828749 },
+    { "lat": -25.2428284, "lon": 130.9828752 },
+    { "lat": -25.2428275, "lon": 130.9830335 },
+    { "lat": -25.2427939, "lon": 130.9830331 },
+    { "lat": -25.2427948, "lon": 130.9828749 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595730,
+  "bounds": {
+    "minlat": -25.2428274,
+    "minlon": 130.9830379,
+    "maxlat": -25.2427929,
+    "maxlon": 130.9831965
+  },
+  "geometry": [
+    { "lat": -25.2427938, "lon": 130.9830379 },
+    { "lat": -25.2428274, "lon": 130.9830383 },
+    { "lat": -25.2428265, "lon": 130.9831965 },
+    { "lat": -25.2427929, "lon": 130.9831962 },
+    { "lat": -25.2427938, "lon": 130.9830379 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595731,
+  "bounds": {
+    "minlat": -25.2428334,
+    "minlon": 130.9820602,
+    "maxlat": -25.2427988,
+    "maxlon": 130.9822188
+  },
+  "geometry": [
+    { "lat": -25.2427998, "lon": 130.9820602 },
+    { "lat": -25.2428334, "lon": 130.9820606 },
+    { "lat": -25.2428324, "lon": 130.9822188 },
+    { "lat": -25.2427988, "lon": 130.9822184 },
+    { "lat": -25.2427998, "lon": 130.9820602 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595732,
+  "bounds": {
+    "minlat": -25.2428324,
+    "minlon": 130.9822221,
+    "maxlat": -25.2427978,
+    "maxlon": 130.9823807
+  },
+  "geometry": [
+    { "lat": -25.2427988, "lon": 130.9822221 },
+    { "lat": -25.2428324, "lon": 130.9822225 },
+    { "lat": -25.2428314, "lon": 130.9823807 },
+    { "lat": -25.2427978, "lon": 130.9823804 },
+    { "lat": -25.2427988, "lon": 130.9822221 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595733,
+  "bounds": {
+    "minlat": -25.2428314,
+    "minlon": 130.9823841,
+    "maxlat": -25.2427969,
+    "maxlon": 130.9825427
+  },
+  "geometry": [
+    { "lat": -25.2427978, "lon": 130.9823841 },
+    { "lat": -25.2428314, "lon": 130.9823844 },
+    { "lat": -25.2428305, "lon": 130.9825427 },
+    { "lat": -25.2427969, "lon": 130.9825423 },
+    { "lat": -25.2427978, "lon": 130.9823841 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595734,
+  "bounds": {
+    "minlat": -25.2428265,
+    "minlon": 130.9832010,
+    "maxlat": -25.2427919,
+    "maxlon": 130.9833596
+  },
+  "geometry": [
+    { "lat": -25.2427928, "lon": 130.9832010 },
+    { "lat": -25.2428265, "lon": 130.9832013 },
+    { "lat": -25.2428255, "lon": 130.9833596 },
+    { "lat": -25.2427919, "lon": 130.9833592 },
+    { "lat": -25.2427928, "lon": 130.9832010 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595735,
+  "bounds": {
+    "minlat": -25.2428336,
+    "minlon": 130.9818946,
+    "maxlat": -25.2427990,
+    "maxlon": 130.9820532
+  },
+  "geometry": [
+    { "lat": -25.2428000, "lon": 130.9818946 },
+    { "lat": -25.2428336, "lon": 130.9818950 },
+    { "lat": -25.2428326, "lon": 130.9820532 },
+    { "lat": -25.2427990, "lon": 130.9820529 },
+    { "lat": -25.2428000, "lon": 130.9818946 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595736,
+  "bounds": {
+    "minlat": -25.2428356,
+    "minlon": 130.9815663,
+    "maxlat": -25.2428010,
+    "maxlon": 130.9817249
+  },
+  "geometry": [
+    { "lat": -25.2428020, "lon": 130.9815663 },
+    { "lat": -25.2428356, "lon": 130.9815666 },
+    { "lat": -25.2428346, "lon": 130.9817249 },
+    { "lat": -25.2428010, "lon": 130.9817245 },
+    { "lat": -25.2428020, "lon": 130.9815663 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595737,
+  "bounds": {
+    "minlat": -25.2428366,
+    "minlon": 130.9814032,
+    "maxlat": -25.2428020,
+    "maxlon": 130.9815618
+  },
+  "geometry": [
+    { "lat": -25.2428030, "lon": 130.9814032 },
+    { "lat": -25.2428366, "lon": 130.9814036 },
+    { "lat": -25.2428356, "lon": 130.9815618 },
+    { "lat": -25.2428020, "lon": 130.9815615 },
+    { "lat": -25.2428030, "lon": 130.9814032 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595738,
+  "bounds": {
+    "minlat": -25.2428366,
+    "minlon": 130.9813145,
+    "maxlat": -25.2428024,
+    "maxlon": 130.9813993
+  },
+  "geometry": [
+    { "lat": -25.2428024, "lon": 130.9813145 },
+    { "lat": -25.2428360, "lon": 130.9813148 },
+    { "lat": -25.2428366, "lon": 130.9813993 },
+    { "lat": -25.2428030, "lon": 130.9813990 },
+    { "lat": -25.2428024, "lon": 130.9813145 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595739,
+  "bounds": {
+    "minlat": -25.2428982,
+    "minlon": 130.9814038,
+    "maxlat": -25.2428636,
+    "maxlon": 130.9815624
+  },
+  "geometry": [
+    { "lat": -25.2428646, "lon": 130.9814038 },
+    { "lat": -25.2428982, "lon": 130.9814042 },
+    { "lat": -25.2428972, "lon": 130.9815624 },
+    { "lat": -25.2428636, "lon": 130.9815620 },
+    { "lat": -25.2428646, "lon": 130.9814038 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595740,
+  "bounds": {
+    "minlat": -25.2428972,
+    "minlon": 130.9815668,
+    "maxlat": -25.2428626,
+    "maxlon": 130.9817254
+  },
+  "geometry": [
+    { "lat": -25.2428636, "lon": 130.9815668 },
+    { "lat": -25.2428972, "lon": 130.9815672 },
+    { "lat": -25.2428962, "lon": 130.9817254 },
+    { "lat": -25.2428626, "lon": 130.9817251 },
+    { "lat": -25.2428636, "lon": 130.9815668 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595741,
+  "bounds": {
+    "minlat": -25.2428992,
+    "minlon": 130.9812413,
+    "maxlat": -25.2428646,
+    "maxlon": 130.9813999
+  },
+  "geometry": [
+    { "lat": -25.2428656, "lon": 130.9812413 },
+    { "lat": -25.2428992, "lon": 130.9812417 },
+    { "lat": -25.2428982, "lon": 130.9813999 },
+    { "lat": -25.2428646, "lon": 130.9813996 },
+    { "lat": -25.2428656, "lon": 130.9812413 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595742,
+  "bounds": {
+    "minlat": -25.2429633,
+    "minlon": 130.9812402,
+    "maxlat": -25.2429288,
+    "maxlon": 130.9813988
+  },
+  "geometry": [
+    { "lat": -25.2429297, "lon": 130.9812402 },
+    { "lat": -25.2429633, "lon": 130.9812405 },
+    { "lat": -25.2429624, "lon": 130.9813988 },
+    { "lat": -25.2429288, "lon": 130.9813984 },
+    { "lat": -25.2429297, "lon": 130.9812402 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595743,
+  "bounds": {
+    "minlat": -25.2429623,
+    "minlon": 130.9814066,
+    "maxlat": -25.2429277,
+    "maxlon": 130.9815652
+  },
+  "geometry": [
+    { "lat": -25.2429287, "lon": 130.9814066 },
+    { "lat": -25.2429623, "lon": 130.9814070 },
+    { "lat": -25.2429614, "lon": 130.9815652 },
+    { "lat": -25.2429277, "lon": 130.9815648 },
+    { "lat": -25.2429287, "lon": 130.9814066 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595744,
+  "bounds": {
+    "minlat": -25.2429613,
+    "minlon": 130.9815691,
+    "maxlat": -25.2429273,
+    "maxlon": 130.9816422
+  },
+  "geometry": [
+    { "lat": -25.2429277, "lon": 130.9815691 },
+    { "lat": -25.2429613, "lon": 130.9815694 },
+    { "lat": -25.2429609, "lon": 130.9816422 },
+    { "lat": -25.2429273, "lon": 130.9816419 },
+    { "lat": -25.2429277, "lon": 130.9815691 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595745,
+  "bounds": {
+    "minlat": -25.2429633,
+    "minlon": 130.9811520,
+    "maxlat": -25.2429292,
+    "maxlon": 130.9812369
+  },
+  "geometry": [
+    { "lat": -25.2429292, "lon": 130.9811520 },
+    { "lat": -25.2429628, "lon": 130.9811523 },
+    { "lat": -25.2429633, "lon": 130.9812369 },
+    { "lat": -25.2429297, "lon": 130.9812365 },
+    { "lat": -25.2429292, "lon": 130.9811520 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595746,
+  "bounds": {
+    "minlat": -25.2430254,
+    "minlon": 130.9810785,
+    "maxlat": -25.2429908,
+    "maxlon": 130.9812371
+  },
+  "geometry": [
+    { "lat": -25.2429918, "lon": 130.9810785 },
+    { "lat": -25.2430254, "lon": 130.9810789 },
+    { "lat": -25.2430244, "lon": 130.9812371 },
+    { "lat": -25.2429908, "lon": 130.9812368 },
+    { "lat": -25.2429918, "lon": 130.9810785 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595747,
+  "bounds": {
+    "minlat": -25.2430244,
+    "minlon": 130.9812449,
+    "maxlat": -25.2429898,
+    "maxlon": 130.9814035
+  },
+  "geometry": [
+    { "lat": -25.2429908, "lon": 130.9812449 },
+    { "lat": -25.2430244, "lon": 130.9812453 },
+    { "lat": -25.2430234, "lon": 130.9814035 },
+    { "lat": -25.2429898, "lon": 130.9814032 },
+    { "lat": -25.2429908, "lon": 130.9812449 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595748,
+  "bounds": {
+    "minlat": -25.2430234,
+    "minlon": 130.9814074,
+    "maxlat": -25.2429888,
+    "maxlon": 130.9815660
+  },
+  "geometry": [
+    { "lat": -25.2429898, "lon": 130.9814074 },
+    { "lat": -25.2430234, "lon": 130.9814078 },
+    { "lat": -25.2430224, "lon": 130.9815660 },
+    { "lat": -25.2429888, "lon": 130.9815657 },
+    { "lat": -25.2429898, "lon": 130.9814074 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595749,
+  "bounds": {
+    "minlat": -25.2428346,
+    "minlon": 130.9817293,
+    "maxlat": -25.2428000,
+    "maxlon": 130.9818879
+  },
+  "geometry": [
+    { "lat": -25.2428010, "lon": 130.9817293 },
+    { "lat": -25.2428346, "lon": 130.9817297 },
+    { "lat": -25.2428336, "lon": 130.9818879 },
+    { "lat": -25.2428000, "lon": 130.9818876 },
+    { "lat": -25.2428010, "lon": 130.9817293 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595750,
+  "bounds": {
+    "minlat": -25.2428962,
+    "minlon": 130.9817299,
+    "maxlat": -25.2428622,
+    "maxlon": 130.9818031
+  },
+  "geometry": [
+    { "lat": -25.2428626, "lon": 130.9817299 },
+    { "lat": -25.2428962, "lon": 130.9817303 },
+    { "lat": -25.2428958, "lon": 130.9818031 },
+    { "lat": -25.2428622, "lon": 130.9818027 },
+    { "lat": -25.2428626, "lon": 130.9817299 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595751,
+  "bounds": {
+    "minlat": -25.2423255,
+    "minlon": 130.9831912,
+    "maxlat": -25.2422909,
+    "maxlon": 130.9833498
+  },
+  "geometry": [
+    { "lat": -25.2422919, "lon": 130.9831912 },
+    { "lat": -25.2423255, "lon": 130.9831916 },
+    { "lat": -25.2423245, "lon": 130.9833498 },
+    { "lat": -25.2422909, "lon": 130.9833494 },
+    { "lat": -25.2422919, "lon": 130.9831912 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595752,
+  "bounds": {
+    "minlat": -25.2423871,
+    "minlon": 130.9831918,
+    "maxlat": -25.2423525,
+    "maxlon": 130.9833503
+  },
+  "geometry": [
+    { "lat": -25.2423535, "lon": 130.9831918 },
+    { "lat": -25.2423871, "lon": 130.9831921 },
+    { "lat": -25.2423861, "lon": 130.9833503 },
+    { "lat": -25.2423525, "lon": 130.9833500 },
+    { "lat": -25.2423535, "lon": 130.9831918 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595753,
+  "bounds": {
+    "minlat": -25.2424512,
+    "minlon": 130.9831918,
+    "maxlat": -25.2424167,
+    "maxlon": 130.9833504
+  },
+  "geometry": [
+    { "lat": -25.2424176, "lon": 130.9831918 },
+    { "lat": -25.2424512, "lon": 130.9831921 },
+    { "lat": -25.2424503, "lon": 130.9833504 },
+    { "lat": -25.2424167, "lon": 130.9833500 },
+    { "lat": -25.2424176, "lon": 130.9831918 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595754,
+  "bounds": {
+    "minlat": -25.2425123,
+    "minlon": 130.9831954,
+    "maxlat": -25.2424777,
+    "maxlon": 130.9833540
+  },
+  "geometry": [
+    { "lat": -25.2424787, "lon": 130.9831954 },
+    { "lat": -25.2425123, "lon": 130.9831957 },
+    { "lat": -25.2425113, "lon": 130.9833540 },
+    { "lat": -25.2424777, "lon": 130.9833536 },
+    { "lat": -25.2424787, "lon": 130.9831954 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595755,
+  "bounds": {
+    "minlat": -25.2423305,
+    "minlon": 130.9822877,
+    "maxlat": -25.2422969,
+    "maxlon": 130.9823676
+  },
+  "geometry": [
+    { "lat": -25.2422969, "lon": 130.9822877 },
+    { "lat": -25.2423305, "lon": 130.9822881 },
+    { "lat": -25.2423305, "lon": 130.9823676 },
+    { "lat": -25.2422969, "lon": 130.9823673 },
+    { "lat": -25.2422969, "lon": 130.9822877 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595756,
+  "bounds": {
+    "minlat": -25.2423305,
+    "minlon": 130.9823709,
+    "maxlat": -25.2422959,
+    "maxlon": 130.9825295
+  },
+  "geometry": [
+    { "lat": -25.2422969, "lon": 130.9823709 },
+    { "lat": -25.2423305, "lon": 130.9823713 },
+    { "lat": -25.2423295, "lon": 130.9825295 },
+    { "lat": -25.2422959, "lon": 130.9825292 },
+    { "lat": -25.2422969, "lon": 130.9823709 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595757,
+  "bounds": {
+    "minlat": -25.2423275,
+    "minlon": 130.9828629,
+    "maxlat": -25.2422929,
+    "maxlon": 130.9830215
+  },
+  "geometry": [
+    { "lat": -25.2422939, "lon": 130.9828629 },
+    { "lat": -25.2423275, "lon": 130.9828632 },
+    { "lat": -25.2423265, "lon": 130.9830215 },
+    { "lat": -25.2422929, "lon": 130.9830211 },
+    { "lat": -25.2422939, "lon": 130.9828629 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595758,
+  "bounds": {
+    "minlat": -25.2423285,
+    "minlon": 130.9826998,
+    "maxlat": -25.2422939,
+    "maxlon": 130.9828584
+  },
+  "geometry": [
+    { "lat": -25.2422949, "lon": 130.9826998 },
+    { "lat": -25.2423285, "lon": 130.9827002 },
+    { "lat": -25.2423275, "lon": 130.9828584 },
+    { "lat": -25.2422939, "lon": 130.9828581 },
+    { "lat": -25.2422949, "lon": 130.9826998 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595759,
+  "bounds": {
+    "minlat": -25.2423295,
+    "minlon": 130.9825373,
+    "maxlat": -25.2422949,
+    "maxlon": 130.9826959
+  },
+  "geometry": [
+    { "lat": -25.2422959, "lon": 130.9825373 },
+    { "lat": -25.2423295, "lon": 130.9825377 },
+    { "lat": -25.2423285, "lon": 130.9826959 },
+    { "lat": -25.2422949, "lon": 130.9826956 },
+    { "lat": -25.2422959, "lon": 130.9825373 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595760,
+  "bounds": {
+    "minlat": -25.2423921,
+    "minlon": 130.9823715,
+    "maxlat": -25.2423575,
+    "maxlon": 130.9825301
+  },
+  "geometry": [
+    { "lat": -25.2423585, "lon": 130.9823715 },
+    { "lat": -25.2423921, "lon": 130.9823718 },
+    { "lat": -25.2423911, "lon": 130.9825301 },
+    { "lat": -25.2423575, "lon": 130.9825297 },
+    { "lat": -25.2423585, "lon": 130.9823715 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595761,
+  "bounds": {
+    "minlat": -25.2423901,
+    "minlon": 130.9827004,
+    "maxlat": -25.2423555,
+    "maxlon": 130.9828590
+  },
+  "geometry": [
+    { "lat": -25.2423565, "lon": 130.9827004 },
+    { "lat": -25.2423901, "lon": 130.9827007 },
+    { "lat": -25.2423891, "lon": 130.9828590 },
+    { "lat": -25.2423555, "lon": 130.9828586 },
+    { "lat": -25.2423565, "lon": 130.9827004 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595762,
+  "bounds": {
+    "minlat": -25.2423891,
+    "minlon": 130.9828634,
+    "maxlat": -25.2423545,
+    "maxlon": 130.9830220
+  },
+  "geometry": [
+    { "lat": -25.2423555, "lon": 130.9828634 },
+    { "lat": -25.2423891, "lon": 130.9828638 },
+    { "lat": -25.2423881, "lon": 130.9830220 },
+    { "lat": -25.2423545, "lon": 130.9830217 },
+    { "lat": -25.2423555, "lon": 130.9828634 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595763,
+  "bounds": {
+    "minlat": -25.2423911,
+    "minlon": 130.9825379,
+    "maxlat": -25.2423565,
+    "maxlon": 130.9826965
+  },
+  "geometry": [
+    { "lat": -25.2423575, "lon": 130.9825379 },
+    { "lat": -25.2423911, "lon": 130.9825383 },
+    { "lat": -25.2423901, "lon": 130.9826965 },
+    { "lat": -25.2423565, "lon": 130.9826961 },
+    { "lat": -25.2423575, "lon": 130.9825379 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595764,
+  "bounds": {
+    "minlat": -25.2423931,
+    "minlon": 130.9822096,
+    "maxlat": -25.2423585,
+    "maxlon": 130.9823682
+  },
+  "geometry": [
+    { "lat": -25.2423595, "lon": 130.9822096 },
+    { "lat": -25.2423931, "lon": 130.9822099 },
+    { "lat": -25.2423921, "lon": 130.9823682 },
+    { "lat": -25.2423585, "lon": 130.9823678 },
+    { "lat": -25.2423595, "lon": 130.9822096 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595765,
+  "bounds": {
+    "minlat": -25.2424552,
+    "minlon": 130.9825368,
+    "maxlat": -25.2424207,
+    "maxlon": 130.9826954
+  },
+  "geometry": [
+    { "lat": -25.2424216, "lon": 130.9825368 },
+    { "lat": -25.2424552, "lon": 130.9825371 },
+    { "lat": -25.2424543, "lon": 130.9826954 },
+    { "lat": -25.2424207, "lon": 130.9826950 },
+    { "lat": -25.2424216, "lon": 130.9825368 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595766,
+  "bounds": {
+    "minlat": -25.2424542,
+    "minlon": 130.9827032,
+    "maxlat": -25.2424197,
+    "maxlon": 130.9828618
+  },
+  "geometry": [
+    { "lat": -25.2424206, "lon": 130.9827032 },
+    { "lat": -25.2424542, "lon": 130.9827035 },
+    { "lat": -25.2424533, "lon": 130.9828618 },
+    { "lat": -25.2424197, "lon": 130.9828614 },
+    { "lat": -25.2424206, "lon": 130.9827032 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595767,
+  "bounds": {
+    "minlat": -25.2424532,
+    "minlon": 130.9828657,
+    "maxlat": -25.2424187,
+    "maxlon": 130.9830243
+  },
+  "geometry": [
+    { "lat": -25.2424196, "lon": 130.9828657 },
+    { "lat": -25.2424532, "lon": 130.9828660 },
+    { "lat": -25.2424523, "lon": 130.9830243 },
+    { "lat": -25.2424187, "lon": 130.9830239 },
+    { "lat": -25.2424196, "lon": 130.9828657 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595768,
+  "bounds": {
+    "minlat": -25.2424562,
+    "minlon": 130.9823749,
+    "maxlat": -25.2424216,
+    "maxlon": 130.9825334
+  },
+  "geometry": [
+    { "lat": -25.2424226, "lon": 130.9823749 },
+    { "lat": -25.2424562, "lon": 130.9823752 },
+    { "lat": -25.2424553, "lon": 130.9825334 },
+    { "lat": -25.2424216, "lon": 130.9825331 },
+    { "lat": -25.2424226, "lon": 130.9823749 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595769,
+  "bounds": {
+    "minlat": -25.2424582,
+    "minlon": 130.9820510,
+    "maxlat": -25.2424236,
+    "maxlon": 130.9822096
+  },
+  "geometry": [
+    { "lat": -25.2424246, "lon": 130.9820510 },
+    { "lat": -25.2424582, "lon": 130.9820513 },
+    { "lat": -25.2424572, "lon": 130.9822096 },
+    { "lat": -25.2424236, "lon": 130.9822092 },
+    { "lat": -25.2424246, "lon": 130.9820510 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595770,
+  "bounds": {
+    "minlat": -25.2424572,
+    "minlon": 130.9822129,
+    "maxlat": -25.2424226,
+    "maxlon": 130.9823715
+  },
+  "geometry": [
+    { "lat": -25.2424236, "lon": 130.9822129 },
+    { "lat": -25.2424572, "lon": 130.9822133 },
+    { "lat": -25.2424562, "lon": 130.9823715 },
+    { "lat": -25.2424226, "lon": 130.9823712 },
+    { "lat": -25.2424236, "lon": 130.9822129 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595771,
+  "bounds": {
+    "minlat": -25.2425173,
+    "minlon": 130.9823751,
+    "maxlat": -25.2424827,
+    "maxlon": 130.9825337
+  },
+  "geometry": [
+    { "lat": -25.2424837, "lon": 130.9823751 },
+    { "lat": -25.2425173, "lon": 130.9823755 },
+    { "lat": -25.2425163, "lon": 130.9825337 },
+    { "lat": -25.2424827, "lon": 130.9825334 },
+    { "lat": -25.2424837, "lon": 130.9823751 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595772,
+  "bounds": {
+    "minlat": -25.2425163,
+    "minlon": 130.9825415,
+    "maxlat": -25.2424817,
+    "maxlon": 130.9827001
+  },
+  "geometry": [
+    { "lat": -25.2424827, "lon": 130.9825415 },
+    { "lat": -25.2425163, "lon": 130.9825419 },
+    { "lat": -25.2425153, "lon": 130.9827001 },
+    { "lat": -25.2424817, "lon": 130.9826998 },
+    { "lat": -25.2424827, "lon": 130.9825415 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595773,
+  "bounds": {
+    "minlat": -25.2425153,
+    "minlon": 130.9827040,
+    "maxlat": -25.2424807,
+    "maxlon": 130.9828626
+  },
+  "geometry": [
+    { "lat": -25.2424817, "lon": 130.9827040 },
+    { "lat": -25.2425153, "lon": 130.9827044 },
+    { "lat": -25.2425143, "lon": 130.9828626 },
+    { "lat": -25.2424807, "lon": 130.9828622 },
+    { "lat": -25.2424817, "lon": 130.9827040 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595774,
+  "bounds": {
+    "minlat": -25.2425143,
+    "minlon": 130.9828671,
+    "maxlat": -25.2424797,
+    "maxlon": 130.9830256
+  },
+  "geometry": [
+    { "lat": -25.2424807, "lon": 130.9828671 },
+    { "lat": -25.2425143, "lon": 130.9828674 },
+    { "lat": -25.2425133, "lon": 130.9830256 },
+    { "lat": -25.2424797, "lon": 130.9830253 },
+    { "lat": -25.2424807, "lon": 130.9828671 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595775,
+  "bounds": {
+    "minlat": -25.2425202,
+    "minlon": 130.9818893,
+    "maxlat": -25.2424857,
+    "maxlon": 130.9820479
+  },
+  "geometry": [
+    { "lat": -25.2424866, "lon": 130.9818893 },
+    { "lat": -25.2425202, "lon": 130.9818897 },
+    { "lat": -25.2425193, "lon": 130.9820479 },
+    { "lat": -25.2424857, "lon": 130.9820476 },
+    { "lat": -25.2424866, "lon": 130.9818893 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595776,
+  "bounds": {
+    "minlat": -25.2425193,
+    "minlon": 130.9820513,
+    "maxlat": -25.2424847,
+    "maxlon": 130.9822099
+  },
+  "geometry": [
+    { "lat": -25.2424857, "lon": 130.9820513 },
+    { "lat": -25.2425193, "lon": 130.9820516 },
+    { "lat": -25.2425183, "lon": 130.9822099 },
+    { "lat": -25.2424847, "lon": 130.9822095 },
+    { "lat": -25.2424857, "lon": 130.9820513 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595777,
+  "bounds": {
+    "minlat": -25.2425183,
+    "minlon": 130.9822132,
+    "maxlat": -25.2424837,
+    "maxlon": 130.9823718
+  },
+  "geometry": [
+    { "lat": -25.2424847, "lon": 130.9822132 },
+    { "lat": -25.2425183, "lon": 130.9822136 },
+    { "lat": -25.2425173, "lon": 130.9823718 },
+    { "lat": -25.2424837, "lon": 130.9823714 },
+    { "lat": -25.2424847, "lon": 130.9822132 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595778,
+  "bounds": {
+    "minlat": -25.2423265,
+    "minlon": 130.9830259,
+    "maxlat": -25.2422919,
+    "maxlon": 130.9831845
+  },
+  "geometry": [
+    { "lat": -25.2422929, "lon": 130.9830259 },
+    { "lat": -25.2423265, "lon": 130.9830263 },
+    { "lat": -25.2423255, "lon": 130.9831845 },
+    { "lat": -25.2422919, "lon": 130.9831842 },
+    { "lat": -25.2422929, "lon": 130.9830259 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595779,
+  "bounds": {
+    "minlat": -25.2423881,
+    "minlon": 130.9830265,
+    "maxlat": -25.2423536,
+    "maxlon": 130.9831851
+  },
+  "geometry": [
+    { "lat": -25.2423545, "lon": 130.9830265 },
+    { "lat": -25.2423881, "lon": 130.9830268 },
+    { "lat": -25.2423872, "lon": 130.9831851 },
+    { "lat": -25.2423536, "lon": 130.9831847 },
+    { "lat": -25.2423545, "lon": 130.9830265 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595780,
+  "bounds": {
+    "minlat": -25.2424522,
+    "minlon": 130.9830287,
+    "maxlat": -25.2424177,
+    "maxlon": 130.9831873
+  },
+  "geometry": [
+    { "lat": -25.2424186, "lon": 130.9830287 },
+    { "lat": -25.2424522, "lon": 130.9830291 },
+    { "lat": -25.2424513, "lon": 130.9831873 },
+    { "lat": -25.2424177, "lon": 130.9831869 },
+    { "lat": -25.2424186, "lon": 130.9830287 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595781,
+  "bounds": {
+    "minlat": -25.2425133,
+    "minlon": 130.9830301,
+    "maxlat": -25.2424787,
+    "maxlon": 130.9831887
+  },
+  "geometry": [
+    { "lat": -25.2424797, "lon": 130.9830301 },
+    { "lat": -25.2425133, "lon": 130.9830305 },
+    { "lat": -25.2425123, "lon": 130.9831887 },
+    { "lat": -25.2424787, "lon": 130.9831883 },
+    { "lat": -25.2424797, "lon": 130.9830301 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595782,
+  "bounds": {
+    "minlat": -25.2427130,
+    "minlon": 130.9814761,
+    "maxlat": -25.2426790,
+    "maxlon": 130.9815615
+  },
+  "geometry": [
+    { "lat": -25.2426794, "lon": 130.9814761 },
+    { "lat": -25.2427130, "lon": 130.9814764 },
+    { "lat": -25.2427126, "lon": 130.9815615 },
+    { "lat": -25.2426790, "lon": 130.9815612 },
+    { "lat": -25.2426794, "lon": 130.9814761 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595783,
+  "bounds": {
+    "minlat": -25.2425775,
+    "minlon": 130.9830312,
+    "maxlat": -25.2425430,
+    "maxlon": 130.9831898
+  },
+  "geometry": [
+    { "lat": -25.2425439, "lon": 130.9830312 },
+    { "lat": -25.2425775, "lon": 130.9830315 },
+    { "lat": -25.2425766, "lon": 130.9831898 },
+    { "lat": -25.2425430, "lon": 130.9831894 },
+    { "lat": -25.2425439, "lon": 130.9830312 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595784,
+  "bounds": {
+    "minlat": -25.2425765,
+    "minlon": 130.9831965,
+    "maxlat": -25.2425420,
+    "maxlon": 130.9833551
+  },
+  "geometry": [
+    { "lat": -25.2425429, "lon": 130.9831965 },
+    { "lat": -25.2425765, "lon": 130.9831968 },
+    { "lat": -25.2425756, "lon": 130.9833551 },
+    { "lat": -25.2425420, "lon": 130.9833547 },
+    { "lat": -25.2425429, "lon": 130.9831965 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595785,
+  "bounds": {
+    "minlat": -25.2425815,
+    "minlon": 130.9823762,
+    "maxlat": -25.2425469,
+    "maxlon": 130.9825348
+  },
+  "geometry": [
+    { "lat": -25.2425479, "lon": 130.9823762 },
+    { "lat": -25.2425815, "lon": 130.9823766 },
+    { "lat": -25.2425806, "lon": 130.9825348 },
+    { "lat": -25.2425469, "lon": 130.9825344 },
+    { "lat": -25.2425479, "lon": 130.9823762 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595786,
+  "bounds": {
+    "minlat": -25.2425805,
+    "minlon": 130.9825426,
+    "maxlat": -25.2425459,
+    "maxlon": 130.9827012
+  },
+  "geometry": [
+    { "lat": -25.2425469, "lon": 130.9825426 },
+    { "lat": -25.2425805, "lon": 130.9825430 },
+    { "lat": -25.2425795, "lon": 130.9827012 },
+    { "lat": -25.2425459, "lon": 130.9827008 },
+    { "lat": -25.2425469, "lon": 130.9825426 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595787,
+  "bounds": {
+    "minlat": -25.2425795,
+    "minlon": 130.9827051,
+    "maxlat": -25.2425450,
+    "maxlon": 130.9828637
+  },
+  "geometry": [
+    { "lat": -25.2425459, "lon": 130.9827051 },
+    { "lat": -25.2425795, "lon": 130.9827054 },
+    { "lat": -25.2425786, "lon": 130.9828637 },
+    { "lat": -25.2425450, "lon": 130.9828633 },
+    { "lat": -25.2425459, "lon": 130.9827051 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595788,
+  "bounds": {
+    "minlat": -25.2425785,
+    "minlon": 130.9828681,
+    "maxlat": -25.2425440,
+    "maxlon": 130.9830267
+  },
+  "geometry": [
+    { "lat": -25.2425449, "lon": 130.9828681 },
+    { "lat": -25.2425785, "lon": 130.9828685 },
+    { "lat": -25.2425776, "lon": 130.9830267 },
+    { "lat": -25.2425440, "lon": 130.9830264 },
+    { "lat": -25.2425449, "lon": 130.9828681 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595789,
+  "bounds": {
+    "minlat": -25.2425845,
+    "minlon": 130.9818904,
+    "maxlat": -25.2425499,
+    "maxlon": 130.9820490
+  },
+  "geometry": [
+    { "lat": -25.2425509, "lon": 130.9818904 },
+    { "lat": -25.2425845, "lon": 130.9818908 },
+    { "lat": -25.2425835, "lon": 130.9820490 },
+    { "lat": -25.2425499, "lon": 130.9820486 },
+    { "lat": -25.2425509, "lon": 130.9818904 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595790,
+  "bounds": {
+    "minlat": -25.2425835,
+    "minlon": 130.9820523,
+    "maxlat": -25.2425489,
+    "maxlon": 130.9822109
+  },
+  "geometry": [
+    { "lat": -25.2425499, "lon": 130.9820523 },
+    { "lat": -25.2425835, "lon": 130.9820527 },
+    { "lat": -25.2425825, "lon": 130.9822109 },
+    { "lat": -25.2425489, "lon": 130.9822106 },
+    { "lat": -25.2425499, "lon": 130.9820523 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595791,
+  "bounds": {
+    "minlat": -25.2425825,
+    "minlon": 130.9822143,
+    "maxlat": -25.2425479,
+    "maxlon": 130.9823729
+  },
+  "geometry": [
+    { "lat": -25.2425489, "lon": 130.9822143 },
+    { "lat": -25.2425825, "lon": 130.9822146 },
+    { "lat": -25.2425815, "lon": 130.9823729 },
+    { "lat": -25.2425479, "lon": 130.9823725 },
+    { "lat": -25.2425489, "lon": 130.9822143 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595792,
+  "bounds": {
+    "minlat": -25.2425845,
+    "minlon": 130.9817983,
+    "maxlat": -25.2425508,
+    "maxlon": 130.9818859
+  },
+  "geometry": [
+    { "lat": -25.2425508, "lon": 130.9817983 },
+    { "lat": -25.2425844, "lon": 130.9817986 },
+    { "lat": -25.2425845, "lon": 130.9818859 },
+    { "lat": -25.2425509, "lon": 130.9818856 },
+    { "lat": -25.2425508, "lon": 130.9817983 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595793,
+  "bounds": {
+    "minlat": -25.2426476,
+    "minlon": 130.9816397,
+    "maxlat": -25.2426135,
+    "maxlon": 130.9817251
+  },
+  "geometry": [
+    { "lat": -25.2426139, "lon": 130.9816397 },
+    { "lat": -25.2426476, "lon": 130.9816400 },
+    { "lat": -25.2426471, "lon": 130.9817251 },
+    { "lat": -25.2426135, "lon": 130.9817248 },
+    { "lat": -25.2426139, "lon": 130.9816397 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595794,
+  "bounds": {
+    "minlat": -25.2426391,
+    "minlon": 130.9830317,
+    "maxlat": -25.2426046,
+    "maxlon": 130.9831903
+  },
+  "geometry": [
+    { "lat": -25.2426055, "lon": 130.9830317 },
+    { "lat": -25.2426391, "lon": 130.9830321 },
+    { "lat": -25.2426382, "lon": 130.9831903 },
+    { "lat": -25.2426046, "lon": 130.9831900 },
+    { "lat": -25.2426055, "lon": 130.9830317 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595795,
+  "bounds": {
+    "minlat": -25.2426381,
+    "minlon": 130.9831970,
+    "maxlat": -25.2426036,
+    "maxlon": 130.9833556
+  },
+  "geometry": [
+    { "lat": -25.2426045, "lon": 130.9831970 },
+    { "lat": -25.2426381, "lon": 130.9831974 },
+    { "lat": -25.2426372, "lon": 130.9833556 },
+    { "lat": -25.2426036, "lon": 130.9833553 },
+    { "lat": -25.2426045, "lon": 130.9831970 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595796,
+  "bounds": {
+    "minlat": -25.2426431,
+    "minlon": 130.9823768,
+    "maxlat": -25.2426086,
+    "maxlon": 130.9825353
+  },
+  "geometry": [
+    { "lat": -25.2426095, "lon": 130.9823768 },
+    { "lat": -25.2426431, "lon": 130.9823771 },
+    { "lat": -25.2426422, "lon": 130.9825353 },
+    { "lat": -25.2426086, "lon": 130.9825350 },
+    { "lat": -25.2426095, "lon": 130.9823768 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595797,
+  "bounds": {
+    "minlat": -25.2426421,
+    "minlon": 130.9825432,
+    "maxlat": -25.2426076,
+    "maxlon": 130.9827018
+  },
+  "geometry": [
+    { "lat": -25.2426085, "lon": 130.9825432 },
+    { "lat": -25.2426421, "lon": 130.9825435 },
+    { "lat": -25.2426412, "lon": 130.9827018 },
+    { "lat": -25.2426076, "lon": 130.9827014 },
+    { "lat": -25.2426085, "lon": 130.9825432 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595798,
+  "bounds": {
+    "minlat": -25.2426411,
+    "minlon": 130.9827056,
+    "maxlat": -25.2426066,
+    "maxlon": 130.9828642
+  },
+  "geometry": [
+    { "lat": -25.2426075, "lon": 130.9827056 },
+    { "lat": -25.2426411, "lon": 130.9827060 },
+    { "lat": -25.2426402, "lon": 130.9828642 },
+    { "lat": -25.2426066, "lon": 130.9828639 },
+    { "lat": -25.2426075, "lon": 130.9827056 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595799,
+  "bounds": {
+    "minlat": -25.2426401,
+    "minlon": 130.9828687,
+    "maxlat": -25.2426056,
+    "maxlon": 130.9830273
+  },
+  "geometry": [
+    { "lat": -25.2426065, "lon": 130.9828687 },
+    { "lat": -25.2426401, "lon": 130.9828690 },
+    { "lat": -25.2426392, "lon": 130.9830273 },
+    { "lat": -25.2426056, "lon": 130.9830269 },
+    { "lat": -25.2426065, "lon": 130.9828687 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595800,
+  "bounds": {
+    "minlat": -25.2426461,
+    "minlon": 130.9818910,
+    "maxlat": -25.2426115,
+    "maxlon": 130.9820496
+  },
+  "geometry": [
+    { "lat": -25.2426125, "lon": 130.9818910 },
+    { "lat": -25.2426461, "lon": 130.9818913 },
+    { "lat": -25.2426451, "lon": 130.9820496 },
+    { "lat": -25.2426115, "lon": 130.9820492 },
+    { "lat": -25.2426125, "lon": 130.9818910 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595801,
+  "bounds": {
+    "minlat": -25.2426451,
+    "minlon": 130.9820529,
+    "maxlat": -25.2426105,
+    "maxlon": 130.9822115
+  },
+  "geometry": [
+    { "lat": -25.2426115, "lon": 130.9820529 },
+    { "lat": -25.2426451, "lon": 130.9820533 },
+    { "lat": -25.2426441, "lon": 130.9822115 },
+    { "lat": -25.2426105, "lon": 130.9822111 },
+    { "lat": -25.2426115, "lon": 130.9820529 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595802,
+  "bounds": {
+    "minlat": -25.2426441,
+    "minlon": 130.9822148,
+    "maxlat": -25.2426096,
+    "maxlon": 130.9823734
+  },
+  "geometry": [
+    { "lat": -25.2426105, "lon": 130.9822148 },
+    { "lat": -25.2426441, "lon": 130.9822152 },
+    { "lat": -25.2426432, "lon": 130.9823734 },
+    { "lat": -25.2426096, "lon": 130.9823731 },
+    { "lat": -25.2426105, "lon": 130.9822148 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595803,
+  "bounds": {
+    "minlat": -25.2426471,
+    "minlon": 130.9817279,
+    "maxlat": -25.2426125,
+    "maxlon": 130.9818865
+  },
+  "geometry": [
+    { "lat": -25.2426135, "lon": 130.9817279 },
+    { "lat": -25.2426471, "lon": 130.9817282 },
+    { "lat": -25.2426461, "lon": 130.9818865 },
+    { "lat": -25.2426125, "lon": 130.9818861 },
+    { "lat": -25.2426135, "lon": 130.9817279 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595804,
+  "bounds": {
+    "minlat": -25.2427122,
+    "minlon": 130.9815682,
+    "maxlat": -25.2426776,
+    "maxlon": 130.9817268
+  },
+  "geometry": [
+    { "lat": -25.2426786, "lon": 130.9815682 },
+    { "lat": -25.2427122, "lon": 130.9815686 },
+    { "lat": -25.2427112, "lon": 130.9817268 },
+    { "lat": -25.2426776, "lon": 130.9817264 },
+    { "lat": -25.2426786, "lon": 130.9815682 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595805,
+  "bounds": {
+    "minlat": -25.2427112,
+    "minlon": 130.9817318,
+    "maxlat": -25.2426766,
+    "maxlon": 130.9818904
+  },
+  "geometry": [
+    { "lat": -25.2426776, "lon": 130.9817318 },
+    { "lat": -25.2427112, "lon": 130.9817322 },
+    { "lat": -25.2427102, "lon": 130.9818904 },
+    { "lat": -25.2426766, "lon": 130.9818900 },
+    { "lat": -25.2426776, "lon": 130.9817318 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595806,
+  "bounds": {
+    "minlat": -25.2427023,
+    "minlon": 130.9831970,
+    "maxlat": -25.2426677,
+    "maxlon": 130.9833556
+  },
+  "geometry": [
+    { "lat": -25.2426687, "lon": 130.9831970 },
+    { "lat": -25.2427023, "lon": 130.9831974 },
+    { "lat": -25.2427013, "lon": 130.9833556 },
+    { "lat": -25.2426677, "lon": 130.9833553 },
+    { "lat": -25.2426687, "lon": 130.9831970 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595807,
+  "bounds": {
+    "minlat": -25.2427063,
+    "minlon": 130.9825420,
+    "maxlat": -25.2426717,
+    "maxlon": 130.9827006
+  },
+  "geometry": [
+    { "lat": -25.2426727, "lon": 130.9825420 },
+    { "lat": -25.2427063, "lon": 130.9825424 },
+    { "lat": -25.2427053, "lon": 130.9827006 },
+    { "lat": -25.2426717, "lon": 130.9827003 },
+    { "lat": -25.2426727, "lon": 130.9825420 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595808,
+  "bounds": {
+    "minlat": -25.2427053,
+    "minlon": 130.9827084,
+    "maxlat": -25.2426707,
+    "maxlon": 130.9828670
+  },
+  "geometry": [
+    { "lat": -25.2426717, "lon": 130.9827084 },
+    { "lat": -25.2427053, "lon": 130.9827088 },
+    { "lat": -25.2427043, "lon": 130.9828670 },
+    { "lat": -25.2426707, "lon": 130.9828667 },
+    { "lat": -25.2426717, "lon": 130.9827084 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595809,
+  "bounds": {
+    "minlat": -25.2427043,
+    "minlon": 130.9828709,
+    "maxlat": -25.2426697,
+    "maxlon": 130.9830295
+  },
+  "geometry": [
+    { "lat": -25.2426707, "lon": 130.9828709 },
+    { "lat": -25.2427043, "lon": 130.9828713 },
+    { "lat": -25.2427033, "lon": 130.9830295 },
+    { "lat": -25.2426697, "lon": 130.9830292 },
+    { "lat": -25.2426707, "lon": 130.9828709 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595810,
+  "bounds": {
+    "minlat": -25.2427033,
+    "minlon": 130.9830340,
+    "maxlat": -25.2426687,
+    "maxlon": 130.9831926
+  },
+  "geometry": [
+    { "lat": -25.2426697, "lon": 130.9830340 },
+    { "lat": -25.2427033, "lon": 130.9830343 },
+    { "lat": -25.2427023, "lon": 130.9831926 },
+    { "lat": -25.2426687, "lon": 130.9831922 },
+    { "lat": -25.2426697, "lon": 130.9830340 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595811,
+  "bounds": {
+    "minlat": -25.2427092,
+    "minlon": 130.9820562,
+    "maxlat": -25.2426747,
+    "maxlon": 130.9822148
+  },
+  "geometry": [
+    { "lat": -25.2426756, "lon": 130.9820562 },
+    { "lat": -25.2427092, "lon": 130.9820566 },
+    { "lat": -25.2427083, "lon": 130.9822148 },
+    { "lat": -25.2426747, "lon": 130.9822145 },
+    { "lat": -25.2426756, "lon": 130.9820562 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595812,
+  "bounds": {
+    "minlat": -25.2427082,
+    "minlon": 130.9822182,
+    "maxlat": -25.2426737,
+    "maxlon": 130.9823768
+  },
+  "geometry": [
+    { "lat": -25.2426746, "lon": 130.9822182 },
+    { "lat": -25.2427082, "lon": 130.9822185 },
+    { "lat": -25.2427073, "lon": 130.9823768 },
+    { "lat": -25.2426737, "lon": 130.9823764 },
+    { "lat": -25.2426746, "lon": 130.9822182 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595813,
+  "bounds": {
+    "minlat": -25.2427072,
+    "minlon": 130.9823801,
+    "maxlat": -25.2426727,
+    "maxlon": 130.9825387
+  },
+  "geometry": [
+    { "lat": -25.2426736, "lon": 130.9823801 },
+    { "lat": -25.2427072, "lon": 130.9823805 },
+    { "lat": -25.2427063, "lon": 130.9825387 },
+    { "lat": -25.2426727, "lon": 130.9825384 },
+    { "lat": -25.2426736, "lon": 130.9823801 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595814,
+  "bounds": {
+    "minlat": -25.2427102,
+    "minlon": 130.9818932,
+    "maxlat": -25.2426756,
+    "maxlon": 130.9820518
+  },
+  "geometry": [
+    { "lat": -25.2426766, "lon": 130.9818932 },
+    { "lat": -25.2427102, "lon": 130.9818935 },
+    { "lat": -25.2427092, "lon": 130.9820518 },
+    { "lat": -25.2426756, "lon": 130.9820514 },
+    { "lat": -25.2426766, "lon": 130.9818932 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595815,
+  "bounds": {
+    "minlat": -25.2427742,
+    "minlon": 130.9814066,
+    "maxlat": -25.2427397,
+    "maxlon": 130.9815651
+  },
+  "geometry": [
+    { "lat": -25.2427406, "lon": 130.9814066 },
+    { "lat": -25.2427742, "lon": 130.9814069 },
+    { "lat": -25.2427733, "lon": 130.9815651 },
+    { "lat": -25.2427397, "lon": 130.9815648 },
+    { "lat": -25.2427406, "lon": 130.9814066 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595816,
+  "bounds": {
+    "minlat": -25.2427733,
+    "minlon": 130.9815702,
+    "maxlat": -25.2427387,
+    "maxlon": 130.9817288
+  },
+  "geometry": [
+    { "lat": -25.2427396, "lon": 130.9815702 },
+    { "lat": -25.2427733, "lon": 130.9815705 },
+    { "lat": -25.2427723, "lon": 130.9817288 },
+    { "lat": -25.2427387, "lon": 130.9817284 },
+    { "lat": -25.2427396, "lon": 130.9815702 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595817,
+  "bounds": {
+    "minlat": -25.2427723,
+    "minlon": 130.9817315,
+    "maxlat": -25.2427377,
+    "maxlon": 130.9818901
+  },
+  "geometry": [
+    { "lat": -25.2427387, "lon": 130.9817315 },
+    { "lat": -25.2427723, "lon": 130.9817319 },
+    { "lat": -25.2427713, "lon": 130.9818901 },
+    { "lat": -25.2427377, "lon": 130.9818898 },
+    { "lat": -25.2427387, "lon": 130.9817315 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595818,
+  "bounds": {
+    "minlat": -25.2427713,
+    "minlon": 130.9818946,
+    "maxlat": -25.2427367,
+    "maxlon": 130.9820532
+  },
+  "geometry": [
+    { "lat": -25.2427377, "lon": 130.9818946 },
+    { "lat": -25.2427713, "lon": 130.9818950 },
+    { "lat": -25.2427703, "lon": 130.9820532 },
+    { "lat": -25.2427367, "lon": 130.9820528 },
+    { "lat": -25.2427377, "lon": 130.9818946 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595819,
+  "bounds": {
+    "minlat": -25.2427703,
+    "minlon": 130.9820565,
+    "maxlat": -25.2427357,
+    "maxlon": 130.9822151
+  },
+  "geometry": [
+    { "lat": -25.2427367, "lon": 130.9820565 },
+    { "lat": -25.2427703, "lon": 130.9820569 },
+    { "lat": -25.2427693, "lon": 130.9822151 },
+    { "lat": -25.2427357, "lon": 130.9822148 },
+    { "lat": -25.2427367, "lon": 130.9820565 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595820,
+  "bounds": {
+    "minlat": -25.2427693,
+    "minlon": 130.9822185,
+    "maxlat": -25.2427347,
+    "maxlon": 130.9823771
+  },
+  "geometry": [
+    { "lat": -25.2427357, "lon": 130.9822185 },
+    { "lat": -25.2427693, "lon": 130.9822188 },
+    { "lat": -25.2427683, "lon": 130.9823771 },
+    { "lat": -25.2427347, "lon": 130.9823767 },
+    { "lat": -25.2427357, "lon": 130.9822185 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595821,
+  "bounds": {
+    "minlat": -25.2427683,
+    "minlon": 130.9823804,
+    "maxlat": -25.2427338,
+    "maxlon": 130.9825390
+  },
+  "geometry": [
+    { "lat": -25.2427347, "lon": 130.9823804 },
+    { "lat": -25.2427683, "lon": 130.9823807 },
+    { "lat": -25.2427674, "lon": 130.9825390 },
+    { "lat": -25.2427338, "lon": 130.9825386 },
+    { "lat": -25.2427347, "lon": 130.9823804 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595822,
+  "bounds": {
+    "minlat": -25.2427673,
+    "minlon": 130.9825468,
+    "maxlat": -25.2427327,
+    "maxlon": 130.9827054
+  },
+  "geometry": [
+    { "lat": -25.2427337, "lon": 130.9825468 },
+    { "lat": -25.2427673, "lon": 130.9825471 },
+    { "lat": -25.2427664, "lon": 130.9827054 },
+    { "lat": -25.2427327, "lon": 130.9827050 },
+    { "lat": -25.2427337, "lon": 130.9825468 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595823,
+  "bounds": {
+    "minlat": -25.2427663,
+    "minlon": 130.9827093,
+    "maxlat": -25.2427318,
+    "maxlon": 130.9828679
+  },
+  "geometry": [
+    { "lat": -25.2427327, "lon": 130.9827093 },
+    { "lat": -25.2427663, "lon": 130.9827096 },
+    { "lat": -25.2427654, "lon": 130.9828679 },
+    { "lat": -25.2427318, "lon": 130.9828675 },
+    { "lat": -25.2427327, "lon": 130.9827093 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595824,
+  "bounds": {
+    "minlat": -25.2427653,
+    "minlon": 130.9828723,
+    "maxlat": -25.2427308,
+    "maxlon": 130.9830309
+  },
+  "geometry": [
+    { "lat": -25.2427317, "lon": 130.9828723 },
+    { "lat": -25.2427653, "lon": 130.9828727 },
+    { "lat": -25.2427644, "lon": 130.9830309 },
+    { "lat": -25.2427308, "lon": 130.9830306 },
+    { "lat": -25.2427317, "lon": 130.9828723 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595825,
+  "bounds": {
+    "minlat": -25.2427643,
+    "minlon": 130.9830354,
+    "maxlat": -25.2427298,
+    "maxlon": 130.9831940
+  },
+  "geometry": [
+    { "lat": -25.2427307, "lon": 130.9830354 },
+    { "lat": -25.2427643, "lon": 130.9830357 },
+    { "lat": -25.2427634, "lon": 130.9831940 },
+    { "lat": -25.2427298, "lon": 130.9831936 },
+    { "lat": -25.2427307, "lon": 130.9830354 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595826,
+  "bounds": {
+    "minlat": -25.2427633,
+    "minlon": 130.9832007,
+    "maxlat": -25.2427288,
+    "maxlon": 130.9833592
+  },
+  "geometry": [
+    { "lat": -25.2427297, "lon": 130.9832007 },
+    { "lat": -25.2427633, "lon": 130.9832010 },
+    { "lat": -25.2427624, "lon": 130.9833592 },
+    { "lat": -25.2427288, "lon": 130.9833589 },
+    { "lat": -25.2427297, "lon": 130.9832007 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369595827,
+  "bounds": {
+    "minlat": -25.2432622,
+    "minlon": 130.9807532,
+    "maxlat": -25.2422127,
+    "maxlon": 130.9834201
+  },
+  "geometry": [
+    { "lat": -25.2432582, "lon": 130.9807532 },
+    { "lat": -25.2432622, "lon": 130.9813451 },
+    { "lat": -25.2430016, "lon": 130.9816712 },
+    { "lat": -25.2428804, "lon": 130.9820755 },
+    { "lat": -25.2428561, "lon": 130.9834201 },
+    { "lat": -25.2422338, "lon": 130.9834155 },
+    { "lat": -25.2422581, "lon": 130.9823949 },
+    { "lat": -25.2422127, "lon": 130.9823469 },
+    { "lat": -25.2426743, "lon": 130.9813597 },
+    { "lat": -25.2431238, "lon": 130.9807577 },
+    { "lat": -25.2432582, "lon": 130.9807532 }
+  ],
+  "tags": {
+    "plant:method": "photovoltaic",
+    "plant:output:electricity": "yes",
+    "plant:source": "solar",
+    "power": "plant"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845540,
+  "bounds": {
+    "minlat": -25.2213783,
+    "minlon": 130.9738342,
+    "maxlat": -25.2213400,
+    "maxlon": 130.9742392
+  },
+  "geometry": [
+    { "lat": -25.2213783, "lon": 130.9742385 },
+    { "lat": -25.2213418, "lon": 130.9742392 },
+    { "lat": -25.2213400, "lon": 130.9738349 },
+    { "lat": -25.2213766, "lon": 130.9738342 },
+    { "lat": -25.2213783, "lon": 130.9742385 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845541,
+  "bounds": {
+    "minlat": -25.2217927,
+    "minlon": 130.9738283,
+    "maxlat": -25.2217543,
+    "maxlon": 130.9742332
+  },
+  "geometry": [
+    { "lat": -25.2217927, "lon": 130.9742325 },
+    { "lat": -25.2217561, "lon": 130.9742332 },
+    { "lat": -25.2217543, "lon": 130.9738290 },
+    { "lat": -25.2217909, "lon": 130.9738283 },
+    { "lat": -25.2217927, "lon": 130.9742325 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845542,
+  "bounds": {
+    "minlat": -25.2215159,
+    "minlon": 130.9738336,
+    "maxlat": -25.2214776,
+    "maxlon": 130.9742386
+  },
+  "geometry": [
+    { "lat": -25.2215159, "lon": 130.9742379 },
+    { "lat": -25.2214794, "lon": 130.9742386 },
+    { "lat": -25.2214776, "lon": 130.9738343 },
+    { "lat": -25.2215142, "lon": 130.9738336 },
+    { "lat": -25.2215159, "lon": 130.9742379 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845543,
+  "bounds": {
+    "minlat": -25.2214469,
+    "minlon": 130.9738350,
+    "maxlat": -25.2214086,
+    "maxlon": 130.9742399
+  },
+  "geometry": [
+    { "lat": -25.2214469, "lon": 130.9742392 },
+    { "lat": -25.2214103, "lon": 130.9742399 },
+    { "lat": -25.2214086, "lon": 130.9738357 },
+    { "lat": -25.2214451, "lon": 130.9738350 },
+    { "lat": -25.2214469, "lon": 130.9742392 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845544,
+  "bounds": {
+    "minlat": -25.2216544,
+    "minlon": 130.9738310,
+    "maxlat": -25.2216160,
+    "maxlon": 130.9742359
+  },
+  "geometry": [
+    { "lat": -25.2216544, "lon": 130.9742352 },
+    { "lat": -25.2216178, "lon": 130.9742359 },
+    { "lat": -25.2216160, "lon": 130.9738317 },
+    { "lat": -25.2216526, "lon": 130.9738310 },
+    { "lat": -25.2216544, "lon": 130.9742352 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845545,
+  "bounds": {
+    "minlat": -25.2215853,
+    "minlon": 130.9738323,
+    "maxlat": -25.2215470,
+    "maxlon": 130.9742372
+  },
+  "geometry": [
+    { "lat": -25.2215853, "lon": 130.9742365 },
+    { "lat": -25.2215488, "lon": 130.9742372 },
+    { "lat": -25.2215470, "lon": 130.9738330 },
+    { "lat": -25.2215835, "lon": 130.9738323 },
+    { "lat": -25.2215853, "lon": 130.9742365 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845546,
+  "bounds": {
+    "minlat": -25.2217236,
+    "minlon": 130.9738296,
+    "maxlat": -25.2216853,
+    "maxlon": 130.9742346
+  },
+  "geometry": [
+    { "lat": -25.2217236, "lon": 130.9742339 },
+    { "lat": -25.2216871, "lon": 130.9742346 },
+    { "lat": -25.2216853, "lon": 130.9738303 },
+    { "lat": -25.2217218, "lon": 130.9738296 },
+    { "lat": -25.2217236, "lon": 130.9742339 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845547,
+  "bounds": {
+    "minlat": -25.2215821,
+    "minlon": 130.9734078,
+    "maxlat": -25.2215438,
+    "maxlon": 130.9738127
+  },
+  "geometry": [
+    { "lat": -25.2215821, "lon": 130.9738120 },
+    { "lat": -25.2215456, "lon": 130.9738127 },
+    { "lat": -25.2215438, "lon": 130.9734085 },
+    { "lat": -25.2215803, "lon": 130.9734078 },
+    { "lat": -25.2215821, "lon": 130.9738120 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845548,
+  "bounds": {
+    "minlat": -25.2216512,
+    "minlon": 130.9734065,
+    "maxlat": -25.2216128,
+    "maxlon": 130.9738114
+  },
+  "geometry": [
+    { "lat": -25.2216512, "lon": 130.9738107 },
+    { "lat": -25.2216146, "lon": 130.9738114 },
+    { "lat": -25.2216128, "lon": 130.9734072 },
+    { "lat": -25.2216494, "lon": 130.9734065 },
+    { "lat": -25.2216512, "lon": 130.9738107 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845549,
+  "bounds": {
+    "minlat": -25.2217205,
+    "minlon": 130.9734051,
+    "maxlat": -25.2216822,
+    "maxlon": 130.9738101
+  },
+  "geometry": [
+    { "lat": -25.2217205, "lon": 130.9738094 },
+    { "lat": -25.2216840, "lon": 130.9738101 },
+    { "lat": -25.2216822, "lon": 130.9734058 },
+    { "lat": -25.2217188, "lon": 130.9734051 },
+    { "lat": -25.2217205, "lon": 130.9738094 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845550,
+  "bounds": {
+    "minlat": -25.2217896,
+    "minlon": 130.9734038,
+    "maxlat": -25.2217512,
+    "maxlon": 130.9738087
+  },
+  "geometry": [
+    { "lat": -25.2217896, "lon": 130.9738080 },
+    { "lat": -25.2217530, "lon": 130.9738087 },
+    { "lat": -25.2217512, "lon": 130.9734045 },
+    { "lat": -25.2217878, "lon": 130.9734038 },
+    { "lat": -25.2217896, "lon": 130.9738080 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845551,
+  "bounds": {
+    "minlat": -25.2218588,
+    "minlon": 130.9734025,
+    "maxlat": -25.2218205,
+    "maxlon": 130.9738074
+  },
+  "geometry": [
+    { "lat": -25.2218588, "lon": 130.9738067 },
+    { "lat": -25.2218223, "lon": 130.9738074 },
+    { "lat": -25.2218205, "lon": 130.9734032 },
+    { "lat": -25.2218571, "lon": 130.9734025 },
+    { "lat": -25.2218588, "lon": 130.9738067 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+},
+{
+  "type": "way",
+  "id": 1369845552,
+  "bounds": {
+    "minlat": -25.2219279,
+    "minlon": 130.9734011,
+    "maxlat": -25.2218895,
+    "maxlon": 130.9738061
+  },
+  "geometry": [
+    { "lat": -25.2219279, "lon": 130.9738054 },
+    { "lat": -25.2218913, "lon": 130.9738061 },
+    { "lat": -25.2218895, "lon": 130.9734018 },
+    { "lat": -25.2219261, "lon": 130.9734011 },
+    { "lat": -25.2219279, "lon": 130.9738054 }
+  ],
+  "tags": {
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
+    "power": "generator"
+  }
+}
+
+  ]
+}

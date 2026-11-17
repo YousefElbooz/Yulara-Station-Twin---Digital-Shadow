@@ -1,0 +1,44 @@
+# Station and weather data are large and come from DKASC / Copernicus under their own terms
+data/raw/
+data/clean/
+data/era5/
+data/era5_raw/
+data/twin/
+data/training/*.tmp
+*.log
+*.csv
+*.nc
+*.parquet
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+!docs/**/*.csv
+
+# Trained model files from the ML team
+models_store/
+*.pkl
+*.pt
+*.h5
+*.onnx
+
+# Secrets & environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / Node / OS / IDE
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Built site
+frontend/dist/
+frontend/.vite/

@@ -1,0 +1,44 @@
+# Yulara 1 – Desert Gardens. Sources and confidence for every value: docs/station_facts.md
+# Values marked "calculated" are not published anywhere; keep the label wherever they are shown.
+
+name: "Yulara 1 – Desert Gardens"
+dkasc_file: "5-Site_DG-PV1-DB-DG-M1A.csv"
+
+location:
+  latitude: -25.2427        # centre of the fenced array (OpenStreetMap)
+  longitude: 130.9820
+  altitude_m: 492           # Yulara (Wikipedia); PVGIS gives 512 m for the array point
+  timezone: "Australia/Darwin"   # ACST, UTC+9:30, no daylight saving
+  utc_offset_hours: 9.5
+
+array:
+  modules: 3360
+  module_model: "Jinko JKM315PP-72"
+  module_stc_w: 315
+  dc_capacity_kw: 1058.4
+  tilt_deg: 15
+  azimuth_deg: 0            # facing north; pvlib convention (degrees east of north)
+  mounting: "fixed, ground, open rack"
+  rows: 15
+  modules_deep_portrait: 2  # calculated from row depth
+  row_pitch_m: 7.0          # approximate, from imagery
+
+module:
+  vmp_v: 37.2
+  imp_a: 8.48
+  voc_v: 46.2
+  isc_a: 9.01
+  efficiency: 0.1623
+  gamma_pdc_per_c: -0.0040
+  noct_c: 45
+  length_m: 1.956
+  width_m: 0.992
+
+inverter:
+  model: "SMA Sunny Tripower 25000TL-30"
+  ac_rating_kw_each: 25.0
+  count: 42                 # calculated, not published
+  ac_capacity_kw: 1050.0    # calculated (42 x 25)
+  euro_efficiency: 0.981
+
+calibration: null           # filled in by step 4 (calibration v1)

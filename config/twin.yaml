@@ -1,0 +1,94 @@
+# Twin settings: health indicators (step 5) and, later, the runtime (step 6).
+# Thresholds are starting values chosen from the 2016-2026 history; tune them here, not in code.
+
+health:
+  output_file: "data/clean/health_daily.parquet"
+  report_file: "docs/health_report.md"
+
+  # "unlimited" moments: the plant is free to follow the sun (same rule as the calibration)
+  unlimited:
+    min_sun_deg: 10
+    min_expected_kw: 50
+    max_expected_kw: 300
+    min_samples_per_day: 12        # one hour of 5-min steps
+
+  # daily performance ratio (PR) = measured / calibrated expected, unlimited moments only
+  pr_smoothing_days: 7             # rolling median used by soiling and fault rules
+
+  soiling:
+    clean_reference_days: 30       # "clean level" = highest smoothed PR in this window
+    alert_below: 0.95              # smoothed PR under 95% of the recent clean level
+    min_days: 7
+    rain_mm_per_day: 1.0           # ERA5 daily total that counts as a rain day
+
+  fault:
+    drop_below: 0.85               # smoothed PR under 85% of the previous 30-day median
+    min_days: 3
+    outage_expected_kwh: 2000      # a sunny day where the physics expects at least this...
+    outage_measured_share: 0.05    # ...and the plant delivers under 5% of it
+
+  equipment_heat:
+    # Temperature_Probe_1/2 sit about 17 C above air even at night, so they are inside equipment
+    # (cabinet or inverter), not on the panels. Reported as equipment temperature only.
+    alert_above_c: 75
+
+# ---------------------------------------------------------------- step 6: the running twin
+runtime:
+  db_file: "data/twin/twin_state.sqlite"
+  # Where "now" comes from until the DKASC live feed is connected (decision Q6/Q7):
+  #   mirror  same date and local time as today at Yulara, taken from the latest year that has data
+  #           (2025, or 2026 for 1 Jan - 19 Feb). Looks live, runs at real speed.
+  #   speed   start at a chosen moment and run faster than real time (for demos and tests)
+  mode: mirror
+  speed_start: "2025-10-04T00:00"   # local time at Yulara, used in 'speed' mode
+  speed_factor: 60                  # sim seconds per real second (60 = one 5-min step every 5 s)
+  data_from: "2024-12-01"           # history the twin loads at start
+  data_until: "2026-02-19T23:55"    # last 5-min step in the station file (local)
+  tick_seconds: 5                   # how often the loop checks the clock
+  # demo profile (step 10): started by backend/api/demo_app.py (launch config "twin-api-demo").
+  # 4 Oct 2025 is a real morning: following the sun (08:30), held back (09:00-10:30), then zero output
+  # from 10:40 -> OUTAGE alarm ~11:10. At x90 that alarm appears about 2 minutes after the API starts.
+  demo:
+    start: "2025-10-04T08:15"
+    speed_factor: 90
+    tick_seconds: 2
+
+  # step status thresholds
+  outage_max_share: 0.05      # measured under 5% of expected...
+  outage_min_expected_kw: 100 # ...while the physics expects at least this
+  limited_max_share: 0.70     # measured under 70% of expected...
+  limited_min_expected_kw: 300 # ...while the physics expects at least this
+
+  # alarms: open after N consecutive 5-min steps in the condition, close after N steps out of it
+  alarms:
+    OFFLINE:
+      steps: 6
+      severity: warning
+      message: "No data from the plant for 30 minutes while the sun is up."
+      recommendation: "Check the data logger and the communication link at the site."
+    OUTAGE:
+      steps: 6
+      severity: critical
+      message: "The plant produces almost nothing while the sun is up."
+      recommendation: "Check the inverters and the grid connection; confirm whether maintenance is scheduled."
+    WEATHER_SENSORS_OFF:
+      steps: 6
+      severity: info
+      message: "Weather sensors are offline; expected power uses ERA5 weather instead."
+      recommendation: "Check the weather station (pyranometer, temperature and wind sensors)."
+    EQUIPMENT_HOT:
+      steps: 6
+      severity: warning
+      threshold_c: 75
+      message: "Equipment temperature (Temperature_Probe_1/2) has been above 75 °C for 30 minutes."
+      recommendation: "Check cabinet ventilation and inverter cooling."
+    # daily rules, checked when a local day ends (thresholds from the health section)
+    FAULT:
+      severity: warning
+      message: "Daily performance is well below last month's level for several days."
+      recommendation: "Look for inverters or strings that are off; compare inverter outputs."
+    SOILING:
+      severity: info
+      confidence: low
+      message: "Performance has slowly dropped below its recent clean level (low confidence: cannot be separated from output limiting)."
+      recommendation: "Inspect the panels for dust; clean if dirty."

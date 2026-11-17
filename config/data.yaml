@@ -1,0 +1,80 @@
+# Cleaning rules for the station file. Change values here, not in the code.
+# Recommendations come from the team's EDA report (DG-PV1-Analysis-Report-v2, section 12).
+
+raw_file: "data/raw/5-Site_DG-PV1-DB-DG-M1A.csv"
+clean_file: "data/clean/station_5min.parquet"
+report_file: "docs/quality_report_station.md"
+
+interval_minutes: 5
+
+# raw column -> canonical column
+columns:
+  Active_Power: p_ac_kw
+  Global_Horizontal_Radiation: ghi_wm2
+  Pyranometer_1: pyrano1_wm2
+  Weather_Temperature_Celsius: t_air_c
+  Wind_Speed: wind_ms
+  Wind_Direction: wind_dir_deg
+  Max_Wind_Speed: wind_gust_ms
+  Air_Pressure: pressure_hpa
+  Temperature_Probe_1: t_probe1_c
+  Temperature_Probe_2: t_probe2_c
+  Current_Phase_Average_Mean: current_a
+
+# raw columns not carried over, and why
+dropped:
+  Active_Energy_Delivered_Received: "cumulative meter reached its ceiling (9,999,995 kWh); not usable for totals"
+  Weather_Daily_Rainfall: "channel almost dead (max 0.29 mm); rain will come from ERA5 tp"
+  Hail_Accumulation: "always about zero"
+
+# any raw value below this is the 'no data' sentinel (-9e9)
+sentinel_below: -1000
+
+# values outside [min, max] are set to missing and counted as bad-sensor readings
+valid_range:
+  p_ac_kw: [-10, 1100]        # above DC capacity is impossible
+  ghi_wm2: [-30, 1500]
+  pyrano1_wm2: [-30, 1600]    # raw file uses 99999.9 for over-range
+  t_air_c: [-10, 50]
+  wind_ms: [0, 40]
+  wind_dir_deg: [0, 360]
+  wind_gust_ms: [0, 60]
+  pressure_hpa: [900, 1050]   # the raw file stores 'empty' as 0
+  t_probe1_c: [-10, 120]
+  t_probe2_c: [-10, 120]
+  current_a: [-50, 2000]
+
+# night = sun below this elevation (degrees), from pvlib solar position
+night_sun_elevation_deg: 0
+
+# Sensor problem found by comparing with ERA5 (scripts/correct_ghi_sensor.py).
+# The station GHI sensor read about 14% high from April 2024 compared with the same calendar
+# months before (docs/ghi_sensor_correction.md). Values from this date are rescaled; the raw
+# column is kept.
+ghi_sensor_correction:
+  from: "2024-04-01"
+  # FIX 2026-11-17 (docs/notes_sensor_and_fixes.md): ERA5 vs the station already differs by season
+  # before 2024 (ERA5 about 5-8% lower in Jun-Aug), so the jump is measured against the SAME
+  # calendar month before the change. The jump is steady (about 1.14 in 2024 and 2025), so one
+  # constant factor is applied. 'monthly' = the first version (one factor per month, forced every
+  # month to the all-year ratio; it over-corrected Jun-Aug by about 5%).
+  method: constant            # constant | monthly
+  baseline_until: "2024-03-31"
+  min_era5_ghi_wm2: 200       # hours used to compare the two
+  output_file: "data/clean/ghi_corrected_5min.parquet"
+  report_file: "docs/ghi_sensor_correction.md"
+
+# FIX 2026-11-17 (docs/notes_sensor_and_fixes.md): when the station weather sensors are offline
+# (for example 25 Jul - 5 Sep 2025) the physics has no input. ERA5 fills those steps, adjusted to
+# the station's own level from the years before the GHI change. Every filled step is marked.
+weather_fallback:
+  enabled: true
+  adjust_until: "2024-03-31"  # period used to match ERA5 to the station sensors
+  output_file: "data/clean/weather_model_5min.parquet"
+
+# stuck power: same value (within tolerance) for at least this many 5-min steps in daylight,
+# with power above min_kw. A candidate for curtailment or a frozen logger, not a verdict.
+stuck:
+  tolerance_kw: 0.5
+  min_steps: 6
+  min_kw: 5

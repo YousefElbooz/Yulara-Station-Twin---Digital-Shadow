@@ -1,0 +1,27 @@
+# Physics model (step 3). Station specs come from config/station.yaml.
+# Every choice here is a standard pvlib model; change them here, not in the code.
+
+input_file: "data/clean/station_5min.parquet"
+output_file: "data/clean/physics_5min.parquet"
+report_file: "docs/physics_validation.md"
+
+# The station timestamp most likely marks the END of each 5-min interval (docs/data_contract.md),
+# so the sun position is taken at the middle of the interval.
+timestamp_label: end
+interval_minutes: 5
+
+decomposition: erbs          # GHI -> direct (DNI) + diffuse (DHI); the station measures GHI only
+transposition: perez         # irradiance on the 15 deg, north-facing plane
+albedo: 0.25                 # red desert sand; not measured at the site (assumption)
+iam: physical                # reflection losses at steep sun angles, applied to the direct part
+temperature_model: sapm_open_rack_glass_polymer
+
+# Version 0 = uncalibrated. Typical total DC losses (soiling, mismatch, wiring, ageing, LID).
+# Step 4 replaces this with values fitted on 2020-2024.
+dc_loss_fraction: 0.14
+
+# Clear-day detection (used only to validate the model)
+clear_day:
+  min_data_fraction: 0.95    # share of daytime 5-min steps with GHI present
+  energy_ratio: [0.90, 1.15] # measured / Haurwitz clear-sky daily irradiation
+  max_variability_index: 1.10  # Stein et al. variability index
