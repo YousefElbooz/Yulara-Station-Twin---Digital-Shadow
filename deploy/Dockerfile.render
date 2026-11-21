@@ -1,0 +1,18 @@
+# The twin API for Render (free web service), built straight from the GitHub repo: code only, no data.
+# On start the container downloads the run-time data from a PRIVATE Hugging Face dataset (deploy/fetch_data.py),
+# then starts the API. Render settings: Dockerfile path = deploy/Dockerfile.render, env HF_DATASET + HF_TOKEN.
+FROM python:3.14-slim
+
+ENV PYTHONUNBUFFERED=1 OPENBLAS_NUM_THREADS=1 PORT=10000
+WORKDIR /app
+
+COPY requirements-runtime.txt .
+RUN pip install --no-cache-dir -r requirements-runtime.txt
+
+COPY backend backend
+COPY scripts/__init__.py scripts/run_twin.py scripts/
+COPY config config
+COPY deploy/fetch_data.py deploy/data_files.py deploy/
+
+EXPOSE 10000
+CMD ["sh", "-c", "python deploy/fetch_data.py && exec uvicorn backend.api.app:app --host 0.0.0.0 --port ${PORT}"]

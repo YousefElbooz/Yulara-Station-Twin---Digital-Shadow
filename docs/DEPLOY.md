@@ -1,84 +1,70 @@
-# Deploying the twin for free: Vercel (website) + Hugging Face Space (API)
+# Deploying the twin for free: Vercel (website) + Render (API) + private Hugging Face dataset (data)
 
 ```
- browser ──► https://<project>.vercel.app            (static site, Vercel)
-              └─ /api/*  ──► Vercel function api/proxy.js ──(Bearer HF_TOKEN)──► https://<user>-<space>.hf.space/api/*
-                                                                                  (private Docker Space: FastAPI + twin loop)
+ browser ──► https://<project>.vercel.app        static site (Vercel)
+              └─ /api/* ──► Vercel function api/proxy.js ──► https://<service>.onrender.com/api/*
+                                                              FastAPI + twin loop (Render free web service,
+                                                              built from GitHub with deploy/Dockerfile.render)
+                                                                 └─ on start: deploy/fetch_data.py downloads the
+                                                                    run-time data from a PRIVATE HF dataset (read token)
 ```
 
-**Why two hosts:** the twin is a long-running process (a background loop, SQLite, ≈ 110 MB of data). Vercel only runs short functions, so the API runs in a free Docker Space, and Vercel serves the site and forwards `/api`.
+**Why three pieces:**
+- The twin is a long-running process, so it runs on Render. Vercel only runs short functions.
+- The data (≈ 110 MB, DKASC / Copernicus) must not be in git or in a public image, so it lives in a **private** Hugging Face dataset.
+- Hugging Face Docker Spaces and a second private Docker Hub repo both need paid plans now, so they are not used.
 
 **Tested locally on 2026-11-21:**
-- the container answers every endpoint, and `/api/scene` returns 503, not 500, while the twin starts;
-- the production build, served through the same proxy, shows live data and the 3D view with no console errors;
-- the container uses ≈ 390 MB of RAM.
+- anonymous download from the dataset → 401;
+- the Render image fetched all 8 files in ≈ 40 s, the twin ran, and `/api/now`, `/scene` and `/station` returned 200;
+- ≈ 350 MB RAM (Render free: 512 MB).
 
-## Before you publish (important)
+## Before you publish
 
-- **DKASC data:** the site shows measured power and sensor series. DKASC asks for **consent above 5,000 cells** of their data. Get their written OK before making the link public.
-- **Keep the Space private.** `push_hf_space.py` refuses to upload to a public Space.
-- **Never upload `.env`** (it holds the CDS key). It is not needed at run time, and the script does not include it.
+- **DKASC data:** the site shows measured power and sensor series. DKASC asks for **consent above 5,000 cells**. Get their OK before sharing the link.
+- **Keep the dataset private.** `push_hf_data.py` creates it private and refuses a public one.
+- **Never put tokens in code or git.** Tokens go only into the hosts' environment-variable settings.
 
-## 1. API on Hugging Face (once)
-
-1. Create a Hugging Face account → **New Space**:
-   - SDK **Docker**, template **Blank**;
-   - visibility **Private**;
-   - hardware **CPU basic (free)**.
-2. Settings → Access Tokens: create a **write** token (for uploading). Later, create a **read** token for Vercel.
-3. In PowerShell, from the project folder:
+## 1. Data → private Hugging Face dataset (done once; repeat after re-running the pipeline)
 
 ```powershell
-.venv\Scripts\pip install huggingface_hub
+.venv\Scripts\hf.exe auth login
 ```
 
 ```powershell
-$env:HF_TOKEN = "<write token>"
+.venv\Scripts\python deploy\push_hf_data.py YosefElbooz/yulara-twin-data
 ```
 
-```powershell
-.venv\Scripts\python deploy\push_hf_space.py <hf-username>/<space-name>
-```
+## 2. API → Render (free web service)
 
-4. Wait for the Space to build (≈ 5 min, in the Space's Logs tab). The API is then at `https://<hf-username>-<space-name>.hf.space` (lower case). `/docs` works with the token.
+On render.com → New → **Web Service** → connect the GitHub repo:
 
-**Updating the API later:** run the same command again.
+| Setting | Value |
+|---|---|
+| Language / runtime | **Docker** |
+| Dockerfile path | `deploy/Dockerfile.render` (root directory: empty) |
+| Instance type | **Free** |
+| Health check path | `/api/health` |
+| Env `HF_DATASET` | `YosefElbooz/yulara-twin-data` |
+| Env `HF_TOKEN` | a Hugging Face **read** token (paste it yourself) |
 
-**Free Space behaviour:** a free Space sleeps after a while without traffic. The first visit after that takes about a minute while it wakes, and the site shows "waking up" and recovers by itself.
+**Free tier behaviour:** the service sleeps after 15 min without traffic. The next visit wakes it in about 1–2 min: start-up, data download, then the twin warms up. The site shows "waking up" and recovers by itself.
 
-## 2. Website on Vercel (once)
+## 3. Website → Vercel
 
-1. Push this repository to GitHub (the data files are git-ignored, so only code goes up).
-2. On vercel.com → **Add New → Project** → import the GitHub repo:
-   - **Root Directory:** `frontend`;
-   - **Framework:** Vite (picked up from `frontend/vercel.json`).
-3. **Environment Variables:**
+On vercel.com → Add New → **Project** → import the GitHub repo:
+- **Root Directory:** `frontend`.
+- **Env `TWIN_API_URL`:** `https://<service>.onrender.com`, with no trailing slash.
+- `HF_TOKEN` is **not** needed: the Render API is called directly by the proxy.
 
-   | Name | Value |
-   |---|---|
-   | `TWIN_API_URL` | `https://<hf-username>-<space-name>.hf.space` (no trailing slash) |
-   | `HF_TOKEN` | a Hugging Face **read** token (kept server-side; never reaches the browser) |
-
-4. **Deploy.** Every later push to the branch redeploys automatically.
-
-## Files involved
+## Files
 
 | File | Role |
 |---|---|
-| `Dockerfile`, `.dockerignore`, `requirements-runtime.txt` | the API container (no torch or training stack) |
-| `deploy/push_hf_space.py` | uploads code + run-time data to the private Space |
-| `frontend/vercel.json` | Vite build + rewrite `/api/*` → `/api/proxy?path=*` |
-| `frontend/api/proxy.js` | Vercel function: forwards to `TWIN_API_URL` with `Authorization: Bearer HF_TOKEN` |
-| `backend/api/app.py` | `ALLOWED_ORIGINS` env (comma-separated) for direct browser access. Not needed with the proxy |
-
-## Test locally the same way
-
-```powershell
-docker build -t yulara-twin .
-```
-
-```powershell
-docker run -p 7860:7860 yulara-twin
-```
-
-Then open `http://localhost:7860/docs`.
+| `deploy/Dockerfile.render` | API image for Render: code only, fetches its data on start |
+| `deploy/fetch_data.py`, `deploy/data_files.py` | start-up download of the 8 run-time files (standard library only) |
+| `deploy/push_hf_data.py` | uploads those files to the private dataset |
+| `Dockerfile`, `.dockerignore` | local all-in-one image with the data copied in (for testing) |
+| `requirements-runtime.txt` | the API's run-time packages (no torch or training stack) |
+| `frontend/vercel.json`, `frontend/api/proxy.js` | Vercel build + `/api/*` proxy (`TWIN_API_URL`, optional `HF_TOKEN`) |
+| `deploy/push_hf_space.py` | the earlier private-Space route (needs HF PRO); kept for reference |
