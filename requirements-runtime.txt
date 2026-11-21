@@ -1,0 +1,10 @@
+# What the running API + twin needs (no training stack: torch, scikit-learn, xgboost, lightgbm, cdsapi are not imported at run time).
+# Used by the Dockerfile (Hugging Face Space). For training and the offline pipeline use requirements.txt.
+pandas==3.1.1
+numpy==2.5.5
+pyarrow==26.0.1
+pvlib==0.16.1
+scipy==1.18.1
+PyYAML==6.0.3
+fastapi==0.163.1
+uvicorn[standard]==0.54.0

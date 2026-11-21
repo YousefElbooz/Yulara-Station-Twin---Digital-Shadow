@@ -1,0 +1,14 @@
+.git
+.venv
+.env
+.env.*
+frontend
+docs
+tools
+data/raw
+data/era5_raw
+data/twin
+data/training
+models_store/friend_v1/*.pkl
+models_store/friend_v1/*.pt
+**/__pycache__

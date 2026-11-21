@@ -113,8 +113,10 @@ async def lifespan(_app: FastAPI):
 app = FastAPI(title="Yulara Station Twin API", version="0.1.0", lifespan=lifespan,
               description="Digital shadow of Yulara 1 – Desert Gardens (DKA Solar Centre). Read-only views of the "
                           "running twin, plus what-if runs of the calibrated physics.")
-app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:5173", "http://localhost:3000",
-                                                  "http://127.0.0.1:5173"], allow_methods=["*"], allow_headers=["*"])
+# Local dev origins, plus any deployed site given as ALLOWED_ORIGINS="https://a.vercel.app,https://b.example" (comma-separated)
+_origins = ["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:5173"]
+_origins += [o.strip() for o in os.environ.get("ALLOWED_ORIGINS", "").split(",") if o.strip()]
+app.add_middleware(CORSMiddleware, allow_origins=_origins, allow_methods=["*"], allow_headers=["*"])
 
 
 @app.exception_handler(sqlite3.OperationalError)
@@ -332,7 +334,10 @@ def _rain_and_cloud(t_utc: pd.Timestamp) -> tuple[float | None, float | None]:
 @app.get("/api/scene", summary="Everything the 3D station view animates, for the twin's current step")
 def scene():
     c = con()
-    st = json.loads(c.execute("SELECT value FROM state WHERE key='now'").fetchone()["value"])
+    row = c.execute("SELECT value FROM state WHERE key='now'").fetchone()
+    if row is None:   # first seconds after a (re)start: no step processed yet
+        raise HTTPException(503, "The twin is starting; no step processed yet.")
+    st = json.loads(row["value"])
     step = st["step"] or {}
     t = pd.Timestamp(st["time_utc"])
     station_cfg = cfg("station.yaml")
